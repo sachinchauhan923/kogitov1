@@ -1,0 +1,23 @@
+package org.acme.travels.P14;
+
+import static org.acme.travels.Rulese6bbb7716f6e4688a5cda5f25445ab57.*;
+import org.acme.travels.*;
+import org.acme.travels.Person;
+import org.drools.modelcompiler.dsl.pattern.D;
+
+@org.drools.compiler.kie.builder.MaterializedLambda()
+public enum LambdaExtractor14475ABBF89DEFEBCCFE36F603B0D206 implements org.drools.model.functions.Function1<org.acme.travels.Person, Integer>, org.drools.model.functions.HashedExpression {
+
+    INSTANCE;
+
+    public static final String EXPRESSION_HASH = "5304D0F915BA9118A48705AB560D2163";
+
+    public java.lang.String getExpressionHash() {
+        return EXPRESSION_HASH;
+    }
+
+    @Override()
+    public Integer apply(org.acme.travels.Person _this) {
+        return _this.getAge();
+    }
+}
